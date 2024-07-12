@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task -02</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/merienda" rel="stylesheet">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<script src="script.js"></script>
+
+<body>
+    <!-- navbar section -->
+    <nav class="navbar">
+        <div class="navbar-top">
+            <div class="contact-info">
+                <a href="mailto:support@maskanserienz.com"><img src="images/email.svg" alt="Email Icon">
+                    support@maskanserienz.com</a>
+                <span><img src="images/ph_clock.svg" alt="Clock Icon"> Mon to Fri 8:00am to 6:00pm</span>
+                <a href="#" class="online-chat"><img src="images/chat.svg" alt="Chat Icon">Online Chat</a>
+            </div>
+        </div>
+        <div class="navbar-bottom">
+            <div class="logo">
+                <img src="images/logo.png" alt="Car Rental Logo">
+                <div>
+                    <span>Car Rental</span>
+                    <span class="premium">Premium Service</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rent</a></li>
+                <li><a href="#">Share</a></li>
+                <li><a href="#">Ride</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+            <button href="#" class="signup">
+                <img src="images/profile.svg" alt="Profile Icon"> Signup
+            </button>
+            <button href="tel:+923324343031" class="contact">
+                <img src="images/call.svg" alt="Phone Icon">
+                <div class="contact-text">
+                    <span>Call us</span>
+                    <span>+92 3324343031</span>
+                </div>
+            </button>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <div class="container">
+        <div class="image-wrapper">
+            <img src="images/background.jpg" alt="Rental car image">
+            <div class="jeep-wrapper">
+                <img src="images/car.png" alt="Jeep image">
+            </div>
+        </div>
+        <div class="text-overlay">
+            <div class="rectangle7"></div>
+            <div class="text-content">
+                <h2 class="looking-to-save-more">Looking to save more<br> on your rental car?</h2>
+                <p>Discover car rental options in your city.</p>
+                <p>Select from a range of car options.</p>
+                <a class="booknow" href="#">Book Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add filter container here -->
+    <div class="filter-container">
+        <div class="filter-item">
+            <label for="company">Select Company</label>
+            <select id="company">
+                <option>All Company</option>
+            </select>
+        </div>
+        <div class="filter-item">
+            <label for="model">Select Model</label>
+            <select id="model">
+                <option>All Models</option>
+            </select>
+        </div>
+        <div class="filter-item">
+            <label for="roof">Select Roof</label>
+            <select id="roof">
+                <option>Open Roof</option>
+            </select>
+        </div>
+        <div class="filter-item">
+            <label for="fuel">Select Fuel</label>
+            <select id="fuel">
+                <option>All Petrol</option>
+            </select>
+        </div>
+        <button class="search-button">Search</button>
+    </div>
+<!-- how it works container -->
+    <div class="how-it-works-container">
+        <h2>How it works</h2>
+        <h3>Rentgo following 3 working steps</h3>
+        <div class="steps">
+            <img src="images/Vector 1.png" class="curve curve-1" alt="Curve 1">
+            <img src="images/Vector 2.png" class="curve curve-2" alt="Curve 2">
+            <div class="step">
+                <img src="images/location.svg" class="loc-img" alt="Choose a location">
+                <h4>Choose a location</h4>
+                <p>Discover car rental options in your city. Select from a range of car options.</p>
+            </div>
+            <div class="step">
+                <img src="images/calender-icon.svg" class="cal-img" alt="Pick-up date">
+                <h4>Pick-up date</h4>
+                <p>Discover car rental options in your city. Select from a range of car options.</p>
+            </div>
+            <div class="step">
+                <img src="images/material-symbols_book.svg" class="car-img" alt="Book your car">
+                <h4>Book your car</h4>
+                <p>Discover car rental options in your city. Select from a range of car options.</p>
+            </div>
+        </div>
+    </div>
+    <!-- services section  -->
+    <div class="banner">
+        <div class="car-image">
+            <img src="images/car-1.png" alt="Car">
+        </div>
+        <div class="services">
+            <h2>BEST SERVICES</h2>
+            <h1>Feel the best experience with our rental deals</h1>
+            <div class="service">
+                <img src="images/deal-icon.svg" alt="Deals for every budget">
+                <div>
+                    <h3>Deals for every budget</h3>
+                    <p>Discover your rental options in your city. Select from a range of car options.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images/price-icon-lock.svg" alt="Best price guaranteed">
+                <div>
+                    <h3>Best price guaranteed</h3>
+                    <p>Discover our rental options in your city. Select from a range of car options.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images/customer-support-icon.svg" alt="Support 24/7">
+                <div>
+                    <h3>Support 24/7</h3>
+                    <p>Discover your rental options in your city. Select from a range of car options.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- top brand section -->
+    <section class="brands-section">
+        <h2>TOP BRANDS</h2>
+        <p>Explore Our Top Deals from Top Rated Dealers</p>
+        <div class="brands-container">
+            <div class="brand-card active">
+                <img src="images/audi-icon.png" alt="Audi">
+                <span>Audi</span>
+            </div>
+            <div class="brand-card">
+                <img src="images/honda-icon.png" alt="Honda">
+                <span>Honda</span>
+            </div>
+            <div class="brand-card">
+                <img src="images/toyota-icon.png" alt="Toyota">
+                <span>Toyota</span>
+            </div>
+            <div class="brand-card">
+                <img src="images/nissan-icon.png" alt="Nissan">
+                <span>Nissan</span>
+            </div>
+            <div class="brand-card">
+                <img src="images/tesla-icon.png" alt="Tesla">
+                <span>Tesla</span>
+            </div>
+            <div class="brand-card">
+                <span>Explore all</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- car-card slider section -->
+    <section class="car-cards-section">
+        <div class="car-cards-container">
+            <div class="car-card">
+                <div class="card-header">
+                    <div class="image-card">
+                        <img src="images/car-3.png" alt="Car 1">
+                    </div>
+                    <div class="favorite filled">&#9825;</div>
+                </div>
+                <div class="card-content">
+                    <h3>2020 Audi A4</h3>
+                    <p class="price">$422 <span>/month</span></p>
+                    <hr>
+                    <div class="features">
+                        <div class="feature">
+                            <img src="images/car-icon.svg" Mileage">
+                            <span>20k</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/auto.svg" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/petrol-icon.svg" alt="Fuel">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button>Rent Now</button>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="card-header">
+                    <div class="image-card">
+                        <img src="images/car-4.png" alt="Car 2">
+                    </div>
+                    <div class="favorite">&#9825;</div>
+                </div>
+                <div class="card-content">
+                    <h3>2020 Audi Q3</h3>
+                    <p class="price">$422 <span>/month</span></p>
+                    <hr>
+                    <div class="features">
+                        <div class="feature">
+                            <img src="images/car-icon.svg" alt="Mileage">
+                            <span>20k</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/auto.svg" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/petrol-icon.svg" alt="Fuel">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button>Rent Now</button>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="card-header">
+                    <div class="image-card">
+                        <img src="images/car-5.png" alt="Car 3">
+                    </div>
+                    <div class="favorite">&#9825;</div>
+                </div>
+                <div class="card-content">
+                    <h3>2020 Audi Q3</h3>
+                    <p class="price">$422 <span>/month</span></p>
+                    <hr>
+                    <div class="features">
+                        <div class="feature">
+                            <img src="images/car-icon.svg" alt="Mileage">
+                            <span>20k</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/auto.svg" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="feature">
+                            <img src="images/petrol-icon.svg" alt="Fuel">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button>Rent Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <button class="prev">&#9664;</button>
+            <button class="next">&#9654;</button>
+        </div>
+    </section>
+
+    <!-- Car model details -->
+    <div class="wrapper">
+        <header class="header">
+            <h2 class="header-subtitle">BEST EXPERIENCE</h2>
+            <h1 class="header-title">We Are Ensuring Best <br> Customer Experience</h1>
+        </header>
+        <div class="features-container">
+            <div class="features-container-left">
+                <div class="model-feature">
+                    <img src="images/deal-icon.svg" alt="Competitive price">
+                    <span>Competitive price</span>
+                </div>
+                <div class="vector-left-1">
+                    <img src="images/vector left 1.png" class="vector-line" width="270px" height="100px" alt="Vector Line">
+                    <img src="images/ellipse.png" class="vector-ellipse vector-left-ellipse-1" alt="Vector Ellipse">
+                </div>
+                <div class="model-feature">
+                    <img src="images/deal-icon.svg" alt="Easier Rent On Your Budget">
+                    <span>Easier Rent On<br>Your Budget</span>
+                </div>
+                <div class="vector-left-2">
+                    <img src="images/Vector-left 2.png" width="250px" class="vector-line" alt="Vector Line">
+                    <img src="images/ellipse.png" class="vector-ellipse vector-left-ellipse-2" alt="Vector Ellipse">
+                </div>
+                <div class="model-feature">
+                    <img src="images/deal-icon.svg" alt="The Best Extended Auto Warranties">
+                    <span>The Best Extended <br>Auto Warranties</span>
+                </div>
+                <div class="vector-left-3">
+                    <img src="images/Vector-left 3.png" class="vector-line" height="170px" width="268px" alt="Vector Line">
+                    <img src="images/ellipse.png" class="vector-ellipse vector-left-ellipse-3" alt="Vector Ellipse">
+                </div>
+            </div>
+            <div class="model-image">
+                <img src="images/car-6.png" alt="Car Image">
+            </div>
+            <div class="features-container-right">
+                <div class="model-feature">
+                    <img src="images/deal-icon.svg" alt="Roadside Assistance 24/7">
+                    <span>Roadside Assistance 24/7</span>
+                </div>
+                <div class="vector-right-1">
+                    <img src="images/Vector-right 1.png" width="290px" height="140px" class="vector-line" alt="Vector Line">
+                    <img src="images/ellipse.png" class="vector-ellipse vector-right-ellipse-1" alt="Vector Ellipse">
+                </div>
+                <div class="model-feature">
+                    <img src="images/deal-icon.svg" alt="Most Flexible payment Plan">
+                    <span>Most Flexible<br>payment Plan</span>
+                </div>
+                <div class="vector-right-2">
+                    <img src="images/Vector-right 2.png" width="290px" class="vector-line" alt="Vector Line">
+                    <img src="images/ellipse.png" class="vector-ellipse vector-right-ellipse-2" alt="Vector Ellipse">
+                </div>
+                <div class="model-feature">
+                    <img src="images/deal-icon.svg" alt="Your Choice of mechanics">
+                    <span>Your Choice of<br>mechanics</span>
+                </div>
+                <div class="vector-right-3">
+                    <img src="images/Vector-right 3.png" width="290px" class="vector-line" alt="Vector Line">
+                    <img src="images/ellipse.png" class="vector-ellipse vector-right-ellipse-3" alt="Vector Ellipse">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- model feature cards  -->
+    <div class="model-feature-cards">
+        <div class="model-feature-card">
+          <img src="images/engine.svg" alt="Engine">
+          <span>Engine</span>
+          <img src="images/check-mark.svg" alt="Check">
+        </div>
+        <div class="model-feature-card">
+          <img src="images/transmission.svg" alt="Transmission">
+          <span>Transmission</span>
+          <img src="images/check-mark.svg" alt="Check">
+        </div>
+        <div class="model-feature-card">
+          <img src="images/electrical-icon.svg" alt="Electrical">
+          <span>Electrical</span>
+          <img src="images/check-mark.svg" alt="Check">
+        </div>
+        <div class="model-feature-card">
+          <img src="images/cooling-icon.svg" alt="Cooling">
+          <span>Cooling</span>
+          <img src="images/check-mark.svg" alt="Check">
+        </div>
+        <div class="model-feature-card">
+          <img src="images/all-check.svg" alt="20+ Check all">
+          <span>20+ Check all</span>
+          <img src="images/check-mark.svg"  alt="Check">
+        </div>
+      </div>
+
+      <!--review section -->
+      <section class="review-section">
+        <div class="review-container">
+            <h2>Read Reviews</h2>
+            <h3>Know What Our Customers Say's</h3>
+            <div class="quote">
+                <img src="images/quote.png" alt="">
+            </div>
+            <img src="images/Line 2.png" class="line-left" alt="">
+            <img src="images/Line 2.png" class="line-right" alt="">
+            <div class="review-cards">
+                <!-- Review Card 1 -->
+                <div class="review-card-container">
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Lorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."</p>
+                    </div>
+                    <div class="reviewer">
+                        <img src="images/reviewer-1.png" alt="User Image">
+                        <div class="reviewer-info">
+                            <h4>Alexx Cathy</h4>
+                            <p>CUSTOMER</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review Card 2 -->
+                <div class="review-card-container">
+                    <div class="review-card light">
+                        <div class="stars">★★★★★</div>
+                        <p>"Lorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."</p>
+                    </div>
+                    <div class="reviewer">
+                        <img src="images/reviewer-2.png" alt="User Image">
+                        <div class="reviewer-info">
+                            <h4>Alexx Cathy</h4>
+                            <p>CUSTOMER</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review Card 3 -->
+                <div class="review-card-container">
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Lorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."</p>
+                    </div>
+                    <div class="reviewer">
+                        <img src="images/reviewer-3.png" alt="User Image">
+                        <div class="reviewer-info">
+                            <h4>Alexx Cathy</h4>
+                            <p>CUSTOMER</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="move">
+            <img src="images/Ellipse 7.png" alt="">
+            <img src="images/Ellipse 8.png" alt="">
+            <img src="images/Ellipse 9.png" alt="">
+            <img src="images/Ellipse 10.png" alt="">
+        </div>
+        </div>
+    </section>
+
+    <!-- our blog section -->
+    <section class="blog-section">
+        <div class="blog-header">
+            <h2>OUR BLOGS</h2>
+            <h3>What Our Author Post on Newsfeed</h3>
+        </div>
+        <div class="blog-cards">
+            <div class="blog-card">
+                <img src="images/blog-1.png" alt="Car Image">
+                <div class="blog-content">
+                    <span class="date">Nov 25, 2023</span>
+                    <h4>Ultimate Mobility Solution</h4>
+                    <p>Lorem ipsum dolor sit amet, adipisicing elit. Nunc voluptate libero et velit interdum, ac aliquet odio mattis et velit interdum, ac aliquet odio mattis.</p>
+                    <a href="#" class="read-more">Read Now</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="images/blog-2.png" alt="Car Image">
+                <div class="blog-content">
+                    <span class="date">Nov 25, 2023</span>
+                    <h4>Ultimate Mobility Solution</h4>
+                    <p>Lorem ipsum dolor sit amet, adipisicing elit. Nunc voluptate libero et velit interdum, ac aliquet odio mattis et velit interdum, ac aliquet odio mattis.</p>
+                    <a href="#" class="read-more">Read Now</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="images/blog-3.png" alt="Car Image">
+                <div class="blog-content">
+                    <span class="date">Nov 25, 2023</span>
+                    <h4>Ultimate Mobility Solution</h4>
+                    <p>Lorem ipsum dolor sit amet, adipisicing elit. Nunc voluptate libero et velit interdum, ac aliquet odio mattis et velit interdum, ac aliquet odio mattis.</p>
+                    <a href="#" class="read-more">Read Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Car Rental Logo">
+                    <div>
+                        <span>Car Rental</span>
+                        <span class="premium">Premium Service</span>
+                    </div>
+                </div>
+                <p class="footer-left-text">Lorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate <br> libero et velit interdum, ac aliquet odio mattis et velit interdum,<br> ac aliquet odio mattis ac aliquet odio mattis et velit interdum,<br> ac aliquet odio mattis.</p>
+                <div class="footer-social">
+                    <a href="#"><img src="images/fb.svg" alt="Facebook"></a>
+                    <a href="#"><img src="images/snapchat.svg" alt="Snapchat"></a>
+                    <a href="#"><img src="images/twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="images/insta.svg" alt="Instagram"></a>
+                    <a href="#"><img src="images/google.svg" alt="Google"></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li><a href="#">Why Rental</a></li>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Centers</a></li>
+                            <li><a href="#">Investors</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Extras</h4>
+                        <ul>
+                            <li><a href="#">Repair centre</a></li>
+                            <li><a href="#">Booking</a></li>
+                            <li><a href="#">News Offers</a></li>
+                            <li><a href="#">Investors</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Our Resources</h4>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="#">News Offers</a></li>
+                            <li><a href="#">Investors</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <form>
+                        <input type="email" placeholder="Email Address">
+                        <button type="submit">→</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <hr>
+            <p>All right Reserved <span>@MuskanSheroz</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
